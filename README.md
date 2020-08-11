@@ -6,6 +6,14 @@ The focus of the project will be on two parts: parsing the data (from MEDLINE da
 
 The data set, produced by National Library of Medicine (NLM), USA, is baseline set of all the MEDLINE publication records in the field of medical science. It is accessible through the PubMed engine. The data is in xml format and will be parsed into csv format by extracting certain details like co-authorship graphs.
 
+## Requirements
+
+Python 3.6 or above
+For Parser, all libraries are default python3 libraries except for requests.
+For Database and analysis, make sure these libraries are installed, snap-stanford (link below), pandas, numpy, matplotlib.
+
+Snap.py: https://snap.stanford.edu/snappy/
+
 ## Parser
 
 The Parser can be launched through "/Parser/main.py". It downloads the data which is then parsed into csv files. These csv files files will be stored at "/Data".
