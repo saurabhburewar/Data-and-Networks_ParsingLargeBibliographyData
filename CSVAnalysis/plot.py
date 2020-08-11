@@ -38,7 +38,7 @@ def display_inf():
     stats.author(G)
     stats.multiplicity(G, Edges)
     stats.info(G)
-    #hashing.display(Edges) 
+    hashing.display(Edges) 
 
 def save_inf():
     save.draw(G)
@@ -75,7 +75,7 @@ def main():
                 hashing.add(Edges, src, dst)
 
     display_inf()
-    #save_inf()
+    save_inf()
     database.build_CoAuthor_database(G)
 
     database.build_authpap_database()  
