@@ -70,7 +70,7 @@ def NodeDatabase(Graph):
         PaperCount = Graph.GetIntAttrDatN(NodeId , "paper_count")
         InsertNode(cursor, NodeId, AuthorId, StartYear, LatestYear, PaperCount)
     connection.commit()
-    #show_node_database(connection)
+    #ShowNodeDatabase(connection)
     connection.close()
     
 #_________________________EDGE DATABASE OPERATIONS__________________________________________#
