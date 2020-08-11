@@ -8,7 +8,8 @@ The data set, produced by National Library of Medicine (NLM), USA, is baseline s
 
 ## Requirements
 
-Python 3.6 or above
+Python 3.6 or above.
+
 For Parser, all libraries are default python3 libraries except for requests.
 For Database and analysis, make sure these libraries are installed, snap-stanford (link below), pandas, numpy, matplotlib.
 
