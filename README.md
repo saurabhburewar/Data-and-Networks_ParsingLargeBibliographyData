@@ -22,11 +22,11 @@ The Parser can be launched through "/Parser/main.py". It downloads the data whic
 
 ## Analysis
 
-The data can be analysed by creating a database from the data in csv files and then plotting distributions.
+The data can be analysed by creating a database from the csv files and then plotting distributions.
 The database can be created through "Database and analysis/Database.py" and "Database and analysis/CoAuthorDatabase.py".
 For the distributions, "Database and analysis/CoAuthorPlot.py" and "Database and analysis/AuthorPaperDistribution.py"
 
 ### CSV Analysis
 
-This is another way of analysing where the system analyses data and plots a co-author network from the co-authors.csv file. There is no need to create database in this case.
+This is another way of analysing where the system analyses data and plots a co-author network from the co-authors.csv file. There is no need to create a database in this case.
 This can be done through "CSVAnalysis/plot.py"
